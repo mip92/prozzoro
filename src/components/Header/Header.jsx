@@ -7,10 +7,8 @@ import {connect} from "react-redux";
 import {NavLink, Redirect, withRouter} from "react-router-dom";
 import {letLogout} from "../../redux/authReducer";
 import img from "../../asets/images/instami-avatarka-v-instagram-9.png"
-
-
 import s from './Header.module.css';
-import Registration from "../Registration/Registration";
+
 
 class HeaderContainer extends React.Component {
     render() {
@@ -32,23 +30,12 @@ class Header extends React.Component {
         this.props.letLogout();
     }
 
-    //redirect= ()
-
-
     render() {
-        debugger;
-        /*if (this.props.location.pathname === "/registration" || this.props.location.pathname === "/login") {
-            return (
-                <nav>
-                    <div className="nav-wrapper">
-                        <a href="#" className="brand-logo">Logo</a>
-                        <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a href='/login'>Войти</a></li>
-                        </ul>
-                    </div>
-                </nav>)
-        }*/
-        return (
+        /*debugger;
+        if (this.props.location.pathname === "/registration" || this.props.location.pathname === "/login") {
+            return (<></>)
+        }
+        else*/ return (
 
             <div>
                 <ul id="dropdown1" className="dropdown-content">
@@ -60,9 +47,6 @@ class Header extends React.Component {
                     <div className="nav-wrapper">
                         <a href="#!" className="brand-logo">Logo</a>
                         <ul className="right hide-on-med-and-down">
-                            <li><NavLink to={'/cabinet'}>Личный кабинет</NavLink></li>
-                            <li><a href='/login'>Войти</a></li>
-                            <li><a onClick={this.logoutHandler}>Выйти</a></li>
                             <li><a className="dropdown-trigger" href="#!" data-target="dropdown1"><i
                                 className="material-icons right"><img
                                 className={s.error} src={img}/></i></a></li>
@@ -75,7 +59,6 @@ class Header extends React.Component {
 }
 
 let mapStateToProps = (state) => ({
-    //captchaUrl: state.auth.captchaUrl,
     token: state.auth.token
 })
 export default compose(

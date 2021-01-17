@@ -4,9 +4,7 @@ import {reduxForm} from "redux-form";
 import {Input, CreateField} from "../common/FormControls/FormControls";
 import {requiredField, numberField} from "../../utils/validators/validators";
 import {connect} from "react-redux";
-//import {getStatus, getUserProfile, updateStatus} from "../../redux/profileReducer";
 import {Redirect} from "react-router-dom";
-import {AppStateType} from "../../redux/reduxstore";
 import {compose} from "redux";
 import {letRegistration} from "../../redux/authReducer";
 import Preloader from "../Preloader/Preloader";
@@ -14,7 +12,6 @@ import {useMessage} from "../../hooks/messageHook";
 import 'materialize-css'; // It installs the JS asset only
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css';
-
 
 const RegistrationForm = ({handleSubmit, error}) => {
     return (
@@ -31,7 +28,6 @@ const RegistrationForm = ({handleSubmit, error}) => {
             {error && <div className={s.formSummmayError}>
                 {error}
             </div>}
-
             <div>
                 <button>Зарегистрироваться</button>
             </div>
@@ -70,14 +66,12 @@ const Registration = (props) => {
             <div className="col s6 offset-s3">
                 <h1>Регистрация</h1>
                 <RegistrationReduxForm onSubmit={onSubmit}/>
-
             </div>
         </div>
 
     )
 }
 
-//let LoginRedirectComponent = withAuthRedirect(Registration)
 let mapStateToProps = (state) => ({
     id: state.auth.user.id,
     initialized: state.auth.initialized,

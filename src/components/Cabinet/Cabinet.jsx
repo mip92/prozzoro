@@ -24,13 +24,10 @@ const EditCabinetForm = ({handleSubmit}) => {
 }
 const EditCabinetReduxForm = reduxForm({form: "cabinet"})(EditCabinetForm)
 const Cabinet = (props) => {
-    debugger
     const onSubmit = (formData) => {
-        debugger
         props.edit(formData.name, formData.name_customer, formData.surname, formData.role)
     }
-    //setTimeout(() => <Preloader/>, 5000)
-    /*if (props.token !== null | props.token !== undefined) {
+   /* if (props.token !== null | props.token !== undefined) {
         return <Redirect to='/login'/>
     }*/
     return (
@@ -38,10 +35,10 @@ const Cabinet = (props) => {
                 <div className="col s6 offset-s3">
                     <h1>Заменить поля в профиле</h1>
                     <EditCabinetReduxForm onSubmit={onSubmit}/>
-                    <div>{props.token}</div>
+                    {/*<div>{props.token}</div>
                     <div>{props.name_customer}</div>
                     <div>{props.surname}</div>
-                    <div>{props.role}</div>
+                    <div>{props.role}</div>*/}
                 </div>
             </div>
 

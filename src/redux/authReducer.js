@@ -1,10 +1,5 @@
 import {authAPI} from "../api/api";
 
-import {stopSubmit} from "redux-form";
-import {Dispatch} from "redux";
-import {ThunkAction} from "redux-thunk";
-import {AppStateType} from "./reduxstore";
-
 const SET_USER_DATA = "auth/SET-USER-DATA";
 const SET_LOGIN_DATA = "auth/SET-LOGIN-DATA";
 const IS_INITIALIZE = "auth/IS-INITIALIZE";
@@ -12,7 +7,7 @@ const SET_LOGOUT_DATA = "auth/SET-LOGOUT-DATA";
 const PUSH_ERROR = "auth/PUSH-ERROR";
 
 let initialState = {
-    err:null,
+    err: null,
     initialized: false,
     status: false,
     token: null,
@@ -69,7 +64,6 @@ export const authReducer = (state = initialState, action) => {
     switch (action.type) {
 
         case SET_USER_DATA:
-            debugger
             return {...state, user: action.user}
 
         case SET_LOGIN_DATA:
@@ -113,7 +107,7 @@ export const isInitialized = (status) => {
 export const editAC = (data) => {
     return {type: IS_INITIALIZE, data}
 };
-export const error=(error) => {
+export const error = (error) => {
     return {type: PUSH_ERROR, error}
 };
 
@@ -122,13 +116,9 @@ export const letRegistration = (name, surname, name_customer, email,
     dispatch(isInitialized(true))
     let data = await authAPI.regMe(name, surname, name_customer, email,
         phone, Number(role), password, password_confirmation);
-   /* if (data.status === 402) {
-        dispatch(error(data.message))
-    }*/
-    debugger
     dispatch(isInitialized(false));
     dispatch(registerAC(data.data.user));
-    //dispatch(isInitialized(false));
+
 };
 export const letLogin = (email, password) => async (dispatch) => {
     dispatch(isInitialized(true))
@@ -144,9 +134,7 @@ export const letLogout = () => async (dispatch, getState) => {
     if (data.status === 200) dispatch(logoutAC())
 };
 export const edit = (name, name_customer, surname, role) => async (dispatch, getState) => {
-    debugger
-    let state=getState();
-    debugger
+    let state = getState();
     console.log(state.user);
     if (name == undefined) name = state.auth.user.name;
     else if (surname == undefined) surname = state.auth.user.surname;
