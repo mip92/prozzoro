@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8bc48be-55f4-40ef-8413-0d3fc194be14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cabinet/Cabinet.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Preloader/Preloader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Registration/Registration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Cost/Cost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Cost/Cost.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Filter/Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Filter/Filter.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Finded/Finded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Finded/Finded.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Paginator/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Paginator/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Result/Result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Result/Result.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Results/Results.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Results/Results.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Сategories/Сategories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Site/Сategories/Сategories.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormControls/FormControls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormControls/FormControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/e404/e404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/messageHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reduxstore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/resultReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/objectsHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1n768w1H0tfKQtAz6eFAmdiCYZ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\program\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\prozoro\my-app\src" />
+      <recent name="C:\prozoro\my-app\src\components\Site" />
+      <recent name="C:\prozoro\my-app\src\redux" />
+      <recent name="C:\prozoro\my-app\src\components\Site\Сategories" />
+      <recent name="C:\prozoro\my-app\src\components\Profile" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8bc48be-55f4-40ef-8413-0d3fc194be14" name="Default Changelist" comment="" />
+      <created>1610728625854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610728625854</updated>
+      <workItem from="1610728631482" duration="3084000" />
+      <workItem from="1610731747644" duration="16917000" />
+      <workItem from="1610748733057" duration="647000" />
+      <workItem from="1610749419514" duration="2287000" />
+      <workItem from="1610809334139" duration="24309000" />
+      <workItem from="1610871945596" duration="18067000" />
+      <workItem from="1610890064530" duration="11861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

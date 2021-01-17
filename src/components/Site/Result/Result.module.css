@@ -1,0 +1,43 @@
+.gridContainer {
+    display: grid;
+    grid-template-areas:"post-1 post-1 post-1 post-2"
+                        "post-1 post-1 post-1 post-2"
+                       "post-3 post-3 post-3 post-2"
+                       "post-3 post-3 post-3 post-5"
+                       "post-4 post-4 post-4 post-5"
+                       "post-4 post-4 post-4 post-5";
+    grid-template-rows: repeat(6, 50px);
+    grid-template-columns: repeat(4, 1fr);
+    background: gainsboro;
+    border-radius: 25px;
+}
+
+.post1 {
+    margin-left: 20px;
+    grid-area: post-1;
+}
+
+.post2 {
+    grid-area: post-2;
+}
+
+.post3 {
+    margin-left: 20px;
+    grid-area: post-3;
+}
+
+.post4 {
+    margin-left: 20px;
+    grid-area: post-4;
+}
+
+.post5 {
+    grid-area: post-5;
+}
+
+.name {
+    background: beige;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
