@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad3a656b.chunk.css",
-    "main.js": "/static/js/main.4a23ee68.chunk.js",
-    "main.js.map": "/static/js/main.4a23ee68.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4d25ba2e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4d25ba2e.js.map",
-    "static/css/2.0ba96f5c.chunk.css": "/static/css/2.0ba96f5c.chunk.css",
-    "static/js/2.ef334cd4.chunk.js": "/static/js/2.ef334cd4.chunk.js",
-    "static/js/2.ef334cd4.chunk.js.map": "/static/js/2.ef334cd4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.0ba96f5c.chunk.css.map": "/static/css/2.0ba96f5c.chunk.css.map",
-    "static/css/main.ad3a656b.chunk.css.map": "/static/css/main.ad3a656b.chunk.css.map",
-    "static/js/2.ef334cd4.chunk.js.LICENSE.txt": "/static/js/2.ef334cd4.chunk.js.LICENSE.txt",
-    "static/media/868843.0fc9516c.svg": "/static/media/868843.0fc9516c.svg",
-    "static/media/Double Ring-2.2s-200px.bba57680.svg": "/static/media/Double Ring-2.2s-200px.bba57680.svg",
-    "static/media/instami-avatarka-v-instagram-9.a772937a.png": "/static/media/instami-avatarka-v-instagram-9.a772937a.png"
+    "main.css": "/mip92/prozzoro/static/css/main.ad3a656b.chunk.css",
+    "main.js": "/mip92/prozzoro/static/js/main.79da0a86.chunk.js",
+    "main.js.map": "/mip92/prozzoro/static/js/main.79da0a86.chunk.js.map",
+    "runtime-main.js": "/mip92/prozzoro/static/js/runtime-main.2a6aaecb.js",
+    "runtime-main.js.map": "/mip92/prozzoro/static/js/runtime-main.2a6aaecb.js.map",
+    "static/css/2.0ba96f5c.chunk.css": "/mip92/prozzoro/static/css/2.0ba96f5c.chunk.css",
+    "static/js/2.3340a033.chunk.js": "/mip92/prozzoro/static/js/2.3340a033.chunk.js",
+    "static/js/2.3340a033.chunk.js.map": "/mip92/prozzoro/static/js/2.3340a033.chunk.js.map",
+    "index.html": "/mip92/prozzoro/index.html",
+    "static/css/2.0ba96f5c.chunk.css.map": "/mip92/prozzoro/static/css/2.0ba96f5c.chunk.css.map",
+    "static/css/main.ad3a656b.chunk.css.map": "/mip92/prozzoro/static/css/main.ad3a656b.chunk.css.map",
+    "static/js/2.3340a033.chunk.js.LICENSE.txt": "/mip92/prozzoro/static/js/2.3340a033.chunk.js.LICENSE.txt",
+    "static/media/868843.0fc9516c.svg": "/mip92/prozzoro/static/media/868843.0fc9516c.svg",
+    "static/media/Double Ring-2.2s-200px.bba57680.svg": "/mip92/prozzoro/static/media/Double Ring-2.2s-200px.bba57680.svg",
+    "static/media/instami-avatarka-v-instagram-9.a772937a.png": "/mip92/prozzoro/static/media/instami-avatarka-v-instagram-9.a772937a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d25ba2e.js",
+    "static/js/runtime-main.2a6aaecb.js",
     "static/css/2.0ba96f5c.chunk.css",
-    "static/js/2.ef334cd4.chunk.js",
+    "static/js/2.3340a033.chunk.js",
     "static/css/main.ad3a656b.chunk.css",
-    "static/js/main.4a23ee68.chunk.js"
+    "static/js/main.79da0a86.chunk.js"
   ]
 }
